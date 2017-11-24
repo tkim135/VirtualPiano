@@ -57,7 +57,8 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 		GLine thirdLine = new GLine(xThird, 0, xThird, getHeight() / 2);
 		add(thirdLine);
 		double xSeventh = (NUM_WHITE - 1) * getWidth() / NUM_WHITE;
-		
+		GLine seventhLine = new GLine(xSeventh, 0, xSeventh, getHeight() / 2);
+		add(seventhLine);
 	}
 
 	/* Implementation of the ComponentListener interface */
