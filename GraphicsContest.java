@@ -4,7 +4,7 @@
  */
 
 import acm.program.*;
-import acm.util.MediaTools;
+import acm.util.*;
 import acm.graphics.*;
 
 public class GraphicsContest extends GraphicsProgram {
