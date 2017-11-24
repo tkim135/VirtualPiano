@@ -23,8 +23,8 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		
 		addMouseListeners();
 		
-		inPedal = false;
-		pedal = new JButton("Pedal");
+		recording = false;
+		record = new JButton("Pedal");
 		add(pedal, NORTH);
 		
 		addActionListeners();
@@ -142,7 +142,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 
 	//private PianoDisplay display;
 	
-	private JButton pedal;
-	private boolean inPedal;
+	private JButton record;
+	private boolean recording;
 	
 }
