@@ -10,7 +10,7 @@ import java.applet.*;
 
 public class GraphicsContest extends Program implements PianoConstants {
 
-	public void run() {
+	public void init() {
 		display = new PianoDisplay();
 		add(display);
 		
