@@ -13,7 +13,7 @@ public class PianoDisplay extends GCanvas implements ComponentListener {
 	}
 	
 	public void update() {
-		
+		/*draw display with lines*/
 	}
 	
 	/* Implementation of the ComponentListener interface */
