@@ -15,6 +15,7 @@ public class GraphicsContest extends GraphicsProgram {
 		cFour.play();
 	}
 	
-	/*add record feature, keyboard changes color*/
+	/* add record feature, keyboard changes color, gliss? (connect button to key 
+	 * with line, and go from there) */
 
 }
