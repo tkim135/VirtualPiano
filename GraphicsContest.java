@@ -25,6 +25,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		addMouseListeners();
 		
 		inPedal = false;
+		pedal = new JButton("Pedal");
 		
 		
 		recording = false;
@@ -163,6 +164,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 
 	//private PianoDisplay display;
 	
+	private JButton pedal;
 	private JButton record;
 	private JButton play;
 	private JButton clear;
