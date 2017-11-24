@@ -27,6 +27,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	
 	public void mouseClicked(MouseEvent e) {
 		createBottomHalfSounds(e.getX(), e.getY());
+		createTopHalfSounds(e.getX(), e.getY());
 	}
 	
 	private void createBottomHalfSounds(double x, double y) {
@@ -49,6 +50,10 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 			AudioClip note = MediaTools.loadAudioClip(filename);
 			note.play();
 		}
+	}
+	
+	private void createTopHalfSounds(double x, double y) {
+		
 	}
 	
 	private void generalTopSounds(double x, double y, double xLeftNum, double xRightNum, String filename) {
