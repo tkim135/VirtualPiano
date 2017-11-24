@@ -39,6 +39,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		clear = new JButton("Clear Memory");
 		add(clear, NORTH);
 		
+		playSpeed.addActionListener(this);
 		addActionListeners();
 	}
 	
