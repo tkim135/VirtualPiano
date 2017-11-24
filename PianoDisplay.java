@@ -25,12 +25,8 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 	private void setUpFirstBlackSet(double distBtwn, double widthKey) {
 		// set up the black keys between C and D and between D and E
 		for (int i = 0; i < 2; i++) {
-			// location of first black key
-			double xBlackKey = 2 * getWidth() / (3 * NUM_WHITE);
-			// width of keys happens to equal the value of xBlackKey above
-			double widthKey = xBlackKey;
-			// add distance between black keys for generalized form
-			xBlackKey += i * getWidth() / NUM_WHITE;
+			// location of first black key happens to equal distBtwn
+			double xBlackKey = distBtwn + i * distBtwn;
 			createKeys(xBlackKey, widthKey);
 		}
 	}
