@@ -15,7 +15,7 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 	public void update() {
 		removeAll();
 		double distBtwn = getWidth() / NUM_WHITE;
-		double widthKey = WB_RATIO * getWidth() / NUM_WHITE;
+		double widthKey = getWidth() / NUM_WHITE * WB_RATIO;
 		setUpFirstBlackSet(distBtwn, widthKey);
 		setUpSecondBlackSet(distBtwn, widthKey);
 		drawWhiteKeyLines();
