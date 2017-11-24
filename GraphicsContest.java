@@ -26,7 +26,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		
 		inPedal = false;
 		pedal = new JButton("Pedal");
-		
+		add(pedal, NORTH);
 		
 		recording = false;
 		record = new JButton("Record");
