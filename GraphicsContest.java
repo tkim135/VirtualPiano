@@ -28,7 +28,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	private void createBottomHalfSounds(double x, double y) {
-		
+		generalBottomSounds(x, y, 0, "Marimba.yarn.ff.C4.stereo.aif");
 		/*if (x > 0 && x < getWidth() / NUM_WHITE && y > getHeight() / 2 && y < getHeight()) {
 			AudioClip cFour = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
 			cFour.play();
