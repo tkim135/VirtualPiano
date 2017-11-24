@@ -18,8 +18,9 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 		for (int i = 0; i < 2; i++) {
 			// location of first black key
 			double xBlackKey = 2 * getWidth() / (3 * NUM_WHITE);
+			// width of keys happens to equal the value of xBlackKey above
 			double widthKey = xBlackKey;
-			// add distance for second
+			// add distance between black keys for generalized form
 			xBlackKey += i * getWidth() / NUM_WHITE;
 			GRect blackKey = new GRect(xBlackKey, 0, )
 		}
