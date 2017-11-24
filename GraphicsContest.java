@@ -136,4 +136,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 
 	//private PianoDisplay display;
 	
+	private JButton pedal;
+	private boolean inPedal;
+	
 }
