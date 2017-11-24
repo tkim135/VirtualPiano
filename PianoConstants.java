@@ -14,5 +14,5 @@ public interface PianoConstants {
 	public static final double WB_RATIO = 1.5;
 	
 	/** Represents spot number of first line going from 0 to getHeight() */
-	public static final double FIRST_FULL = 3;
+	public static final int FIRST_FULL = 3;
 }
