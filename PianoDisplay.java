@@ -54,6 +54,7 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 		}
 		// exceptions for 3rd and 7th line; they must go full height
 		double xThird = FIRST_FULL * getWidth() / NUM_WHITE;
+		GLine thirdLine = 
 	}
 
 	/* Implementation of the ComponentListener interface */
