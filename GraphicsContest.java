@@ -49,7 +49,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	public void initPlaySpeedButtons() {
-		
+		ButtonGroup speedButtons = new ButtonGroup();
 	}
 	
 	public void actionPerformed(ActionEvent e) {
