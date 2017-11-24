@@ -14,5 +14,7 @@ public class GraphicsContest extends GraphicsProgram {
 		AudioClip cFour = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
 		cFour.play();
 	}
+	
+	/*add record feature, keyboard changes color*/
 
 }
