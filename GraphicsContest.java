@@ -31,6 +31,9 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		play = new JButton("Play");
 		add(play, NORTH);
 		
+		clear = new JButton("Clear");
+		add(clear, NORTH);
+		
 		addActionListeners();
 	}
 	
