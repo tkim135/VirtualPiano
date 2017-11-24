@@ -52,7 +52,6 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	public void actionPerformed(ActionEvent e) {
-		String cmd = e.getActionCommand();
 		if (e.getSource() == record) {
 			recording = !recording;
 		} else if (e.getSource() == play) {
