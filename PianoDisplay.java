@@ -47,7 +47,7 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 	}
 	
 	private void drawWhiteKeyLines() {
-		for (int i = 1; i <= 7; i++) {
+		for (int i = 1; i <= NUM_WHITE - 1; i++) {
 			double xLine = i * getWidth() / NUM_WHITE;
 			GLine line = new GLine (xLine, getHeight() / 2, xLine, getHeight());
 			add(line);
