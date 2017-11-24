@@ -34,6 +34,10 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		createTopHalfSounds(e.getX(), e.getY());
 	}
 	
+	public void actionPerformed(ActionEvent e) {
+		
+	}
+	
 	private void createBottomHalfSounds(double x, double y) {
 		// iterates for first five white keys from the left
 		for (int i = 0; i < 5; i++) {
