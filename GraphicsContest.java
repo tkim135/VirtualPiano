@@ -55,13 +55,6 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		String cmd = e.getActionCommand();
 		if (e.getSource() == record) {
 			recording = !recording;
-		} else if (cmd.equals("Play")) {
-			recording = false;
-			for (int i = 0; i < noteList.size(); i++) {
-				createBottomHalfSounds(noteList.get(i).getX(), noteList.get(i).getY());
-				createTopHalfSounds(noteList.get(i).getX(), noteList.get(i).getY());
-				pause(1000);
-			}
 		} else if (e.getSource() == play) {
 			recording = false;
 			for (int i = 0; i < noteList.size(); i++) {
