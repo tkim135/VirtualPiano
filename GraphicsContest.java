@@ -5,7 +5,7 @@
 
 import acm.program.*;
 import acm.util.*;
-import javafx.scene.media.AudioClip;
+import java.applet.*;
 import acm.graphics.*;
 
 public class GraphicsContest extends GraphicsProgram {
