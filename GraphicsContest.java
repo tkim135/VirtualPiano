@@ -16,6 +16,6 @@ public class GraphicsContest extends GraphicsProgram {
 	}
 	
 	/* add record feature, keyboard changes color, gliss? (connect button to key 
-	 * with line, and go from there) */
+	 * with line, and go from there), samples */
 
 }
