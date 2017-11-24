@@ -8,6 +8,6 @@ import java.awt.*;
 public class PianoDisplay extends GCanvas {
 
 	public PianoDisplay() {
-		addComponentListeners(this);
+		addComponentListener(this);
 	}
 }
