@@ -14,6 +14,8 @@ public class GraphicsContest extends Program implements PianoConstants {
 		display = new PianoDisplay();
 		add(display);
 		
+		addMouseListeners();
+		
 		AudioClip cFour = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
 		cFour.play();
 	}
