@@ -32,10 +32,10 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		for (int i = 0; i < 5; i++) {
 			generalBottomSounds(x, y, i, "Marimba.yarn.ff." + (char)('C' + i) + "4.stereo.aif");
 		}
-		for (int i = 5; i < NUM_WHITE; i++) {
+		for (int i = 5; i < NUM_WHITE - 1; i++) {
 			generalBottomSounds(x, y, i, "Marimba.yarn.ff." + (char)('A' + i - 5) + "4.stereo.aif");
 		}
-		generalBottomSounds(x, y, NUM_WHITE, "Marimba.yarn.ff.C5.stereo.aif");
+		generalBottomSounds(x, y, NUM_WHITE - 1, "Marimba.yarn.ff.C5.stereo.aif");
 		/*if (x > 0 && x < getWidth() / NUM_WHITE && y > getHeight() / 2 && y < getHeight()) {
 			AudioClip cFour = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
 			cFour.play();
