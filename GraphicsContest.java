@@ -152,6 +152,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	//private PianoDisplay display;
 	
 	private JButton record;
+	private JButton play;
 	private boolean recording;
 	private ArrayList<GPoint> noteList = new ArrayList<GPoint>();
 	
