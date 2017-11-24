@@ -50,7 +50,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	public void actionPerformed(ActionEvent e) {
-		if (e.getSource == pedal) {
+		if (e.getSource() == pedal) {
 			
 		} else if (e.getSource() == record) {
 			recording = !recording;
