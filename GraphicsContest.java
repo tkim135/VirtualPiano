@@ -61,6 +61,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		generalTopSounds(x, y, 9, 11, "Marimba.yarn.ff.F4.stereo.aif");
 		generalTopSounds(x, y, 11, 13, "Marimba.yarn.ff.Gb4.stereo.aif");
 		generalTopSounds(x, y, 13, 14, "Marimba.yarn.ff.G4.stereo.aif");
+		generalTopSounds(x, y, 14, 16, "Marimba.yarn.ff.Ab4.stereo.aif");
 	}
 	
 	private void generalTopSounds(double x, double y, double xLeftNum, double xRightNum, String filename) {
