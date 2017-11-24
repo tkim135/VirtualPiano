@@ -20,6 +20,10 @@ public class GraphicsContest extends Program implements PianoConstants {
 		cFour.play();
 	}
 	
+	public void mouseClicked(MouseEvent e) {
+		
+	}
+	
 	/* add record feature, keyboard changes color, gliss? (connect button to key 
 	 * with line, and go from there), samples */
 
