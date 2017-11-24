@@ -11,6 +11,7 @@ import acm.graphics.*;
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.*;
 import javax.swing.*;
 
 public class GraphicsContest extends GraphicsProgram implements ComponentListener, PianoConstants {
