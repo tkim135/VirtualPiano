@@ -24,6 +24,9 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		
 		addMouseListeners();
 		
+		inPedal = false;
+		
+		
 		recording = false;
 		record = new JButton("Record");
 		add(record, NORTH);
@@ -164,6 +167,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	private JButton play;
 	private JButton clear;
 	private boolean recording;
+	private boolean pedal;
 	private ArrayList<GPoint> noteList = new ArrayList<GPoint>();
 	
 }
