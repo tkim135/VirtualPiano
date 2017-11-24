@@ -11,6 +11,7 @@ import acm.graphics.*;
 import java.applet.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class GraphicsContest extends GraphicsProgram implements ComponentListener, PianoConstants {
 
@@ -22,7 +23,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		
 		addMouseListeners();
 		
-		JButton pedal = add(new JButton("Pedal"), NORTH);
+		JButton pedal = new JButton("Pedal");
 		
 		addActionListeners();
 	}
