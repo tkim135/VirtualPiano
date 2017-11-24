@@ -31,7 +31,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		play = new JButton("Play");
 		add(play, NORTH);
 		
-		clear = new JButton("Clear");
+		clear = new JButton("Clear Memory");
 		add(clear, NORTH);
 		
 		addActionListeners();
@@ -163,6 +163,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	
 	private JButton record;
 	private JButton play;
+	private JButton clear;
 	private boolean recording;
 	private ArrayList<GPoint> noteList = new ArrayList<GPoint>();
 	
