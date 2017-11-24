@@ -22,7 +22,7 @@ public class GraphicsContest extends GraphicsProgram implements PianoConstants {
 	}
 	
 	public void mouseClicked(MouseEvent e) {
-		if (getElementAt(e.getX(), e.getY())) {
+		if (getElementAt(e.getX(), e.getY()) == != null) {
 			
 		}
 	}
