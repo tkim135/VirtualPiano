@@ -5,7 +5,7 @@
 
 import acm.program.*;
 import acm.util.*;
-import acm.graphics.*;
+//import acm.graphics.*;
 import java.applet.*;
 
 public class GraphicsContest extends Program {
