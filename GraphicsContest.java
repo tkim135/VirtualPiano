@@ -21,4 +21,6 @@ public class GraphicsContest extends Program implements PianoConstants {
 	/* add record feature, keyboard changes color, gliss? (connect button to key 
 	 * with line, and go from there), samples */
 
+	private PianoDisplay display;
+	
 }
