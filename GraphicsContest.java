@@ -22,9 +22,7 @@ public class GraphicsContest extends Program implements PianoConstants {
 	}
 	
 	public void mouseClicked(MouseEvent e) {
-		if (getElementAt(e.getX(), e.getY()) != null) {
-			
-		}
+		
 	}
 	
 	/* add record feature, keyboard changes color, gliss? (connect button to key 
