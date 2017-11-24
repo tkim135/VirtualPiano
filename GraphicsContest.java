@@ -28,7 +28,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	private void createBottomHalfSounds(double x, double y) {
-		// iterates for first five keys from the left
+		// iterates for first five white keys from the left
 		for (int i = 0; i < 5; i++) {
 			generalBottomSounds(x, y, i, "Marimba.yarn.ff." + (char)('C' + i) + "4.stereo.aif");
 		}
