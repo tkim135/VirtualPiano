@@ -22,13 +22,14 @@ public class GraphicsContest extends Program implements PianoConstants {
 	}
 	
 	public void mouseClicked(MouseEvent e) {
-		createBottomHalfSounds(e.getX(), e.getY());
+		AudioClip cFour = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
+		cFour.play();
+		//createBottomHalfSounds(e.getX(), e.getY());
 	}
 	
-	private void createBottomHalfSounds(int x, int y) {
+	/*private void createBottomHalfSounds(int x, int y) {
 		if (x > 0 && x < getWidth() / NUM_WHITE && y > getHeight() / 2 && y < getHeight()) {
-			AudioClip cFour = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
-			cFour.play();
+			
 		}
 	}
 	
