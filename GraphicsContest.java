@@ -82,6 +82,12 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		if (x > xNum * getWidth() / NUM_WHITE && x < (xNum + 1) * getWidth() / NUM_WHITE && y > getHeight() / 2 && y < getHeight()) {
 			AudioClip note = MediaTools.loadAudioClip(filename);
 			note.play();
+			if (inPedal) {
+				for (int i = 0; i < 3; i++) {
+					pause(300);
+					note.play();
+				}
+			}
 		}
 	}
 	
