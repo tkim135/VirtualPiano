@@ -12,8 +12,10 @@ import java.awt.event.*;
 public class GraphicsContest extends GraphicsProgram implements PianoConstants {
 
 	public void init() {
-		display = new PianoDisplay();
-		add(display);
+		/*display = new PianoDisplay();
+		add(display);*/
+		
+		addComponentListeners(this);
 		
 		addMouseListeners();
 		
