@@ -131,6 +131,6 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	/* add record feature (slow, fast), keyboard changes color, gliss? (connect button to key 
 	 * with line, and go from there), samples, auto-playing code */
 
-	private PianoDisplay display;
+	//private PianoDisplay display;
 	
 }
