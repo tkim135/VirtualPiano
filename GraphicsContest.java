@@ -23,6 +23,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		
 		addMouseListeners();
 		
+		inPedal = false;
 		pedal = new JButton("Pedal");
 		
 		addActionListeners();
