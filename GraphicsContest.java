@@ -35,7 +35,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	private void generalBottomSounds(double x, double y, double xNum, String filename) {
-		if (x > xLeftBound && x < getWidth() / NUM_WHITE && y > getHeight() / 2 && y < getHeight()) {
+		if (x > xNum * getWidth() / NUM_WHITE && x < (xNum + 1) * getWidth() / NUM_WHITE && y > getHeight() / 2 && y < getHeight()) {
 			AudioClip note = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
 			note.play();
 		}
