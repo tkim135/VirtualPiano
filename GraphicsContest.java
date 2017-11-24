@@ -11,6 +11,9 @@ import java.applet.*;
 public class GraphicsContest extends Program implements PianoConstants {
 
 	public void run() {
+		display = new PianoDisplay();
+		add(display);
+		
 		AudioClip cFour = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
 		cFour.play();
 	}
