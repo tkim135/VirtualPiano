@@ -146,5 +146,6 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	
 	private JButton record;
 	private boolean recording;
+	private ArrayList<GPoint> noteList;
 	
 }
