@@ -15,7 +15,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		/*display = new PianoDisplay();
 		add(display);*/
 		
-		addComponentListeners(this);
+		addComponentListener(this);
 		
 		addMouseListeners();
 		
