@@ -45,6 +45,12 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 		blackKey.setColor(Color.BLACK);
 		add(blackKey);
 	}
+	
+	private void drawWhiteKeyLines() {
+		for (int i = 1; i <= 7; i++) {
+			GLine line
+		}
+	}
 
 	/* Implementation of the ComponentListener interface */
 	public void componentHidden(ComponentEvent e) { }
