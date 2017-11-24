@@ -6,7 +6,7 @@ import acm.graphics.*;
 import java.awt.*;
 import java.awt.event.*;
 
-public class PianoDisplay extends GCanvas implements ComponentListener {
+public class PianoDisplay extends GCanvas implements ComponentListener, PianoConstants {
 
 	public PianoDisplay() {
 		addComponentListener(this);
@@ -15,7 +15,7 @@ public class PianoDisplay extends GCanvas implements ComponentListener {
 	public void update() {
 		removeAll();
 		for (int i = 0; i < 2; i++) {
-			
+			GRect blackKey = new GRect (getWidth())
 		}
 		
 		/*draw display with lines, GRect for black keys*/
