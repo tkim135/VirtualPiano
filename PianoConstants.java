@@ -11,5 +11,5 @@ public interface PianoConstants {
 	public static final int NUM_WHITE = 8;
 	
 	/** Width ratio between white and black keys */
-	public static final double WB_RATIO = 2 / 3;
+	public static final double WB_RATIO = 1.5;
 }
