@@ -22,7 +22,7 @@ public class GraphicsContest extends Program implements PianoConstants {
 	}
 	
 	public void mouseClicked(MouseEvent e) {
-		removeAll();
+		remove(display);
 		//createBottomHalfSounds(e.getX(), e.getY());
 	}
 	
