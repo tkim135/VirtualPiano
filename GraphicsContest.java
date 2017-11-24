@@ -102,8 +102,8 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	public void componentResized(ComponentEvent e) { update(); }
 	public void componentShown(ComponentEvent e) { }
 	
-	/* add record feature, keyboard changes color, gliss? (connect button to key 
-	 * with line, and go from there), samples */
+	/* add record feature (slow, fast), keyboard changes color, gliss? (connect button to key 
+	 * with line, and go from there), samples, auto-playing code */
 
 	private PianoDisplay display;
 	
