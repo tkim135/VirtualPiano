@@ -57,7 +57,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	private void generalTopSounds(double x, double y, double xLeftNum, double xRightNum, String filename) {
-		if (x > xLeftNum * getWidth() / (3 * NUM_WHITE) && x < xRightNum * getWidth() / (3 * NUM_WHITE) && y > getHeight() / 2 && y < getHeight()) {
+		if (x > xLeftNum * getWidth() / (3 * NUM_WHITE) && x < xRightNum * getWidth() / (3 * NUM_WHITE) && y > 0 && y < getHeight() / 2) {
 			AudioClip note = MediaTools.loadAudioClip(filename);
 			note.play();
 		}
