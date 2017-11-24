@@ -18,6 +18,7 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 		double widthKey = 2 * getWidth() / (3 * NUM_WHITE);
 		setUpFirstBlackSet(distBtwn, widthKey);
 		setUpSecondBlackSet(distBtwn, widthKey);
+		drawWhiteKeyLines();
 
 		/*draw display with lines, GRect for black keys*/
 	}
