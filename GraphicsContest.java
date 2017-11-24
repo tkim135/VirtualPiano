@@ -48,6 +48,10 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		}
 	}
 	
+	public void initPlaySpeedButtons() {
+		
+	}
+	
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == record) {
 			recording = !recording;
