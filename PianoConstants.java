@@ -10,4 +10,6 @@ public interface PianoConstants {
 	/** Number of white keys */
 	public static final int NUM_WHITE = 8;
 	
+	/** Width ratio between white and black keys */
+	public static final double WB_RATIO = 2 / 3;
 }
