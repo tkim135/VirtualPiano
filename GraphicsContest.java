@@ -7,6 +7,7 @@ import acm.program.*;
 import acm.util.*;
 //import acm.graphics.*;
 import java.applet.*;
+import java.awt.event*;
 
 public class GraphicsContest extends Program implements PianoConstants {
 
@@ -14,7 +15,7 @@ public class GraphicsContest extends Program implements PianoConstants {
 		display = new PianoDisplay();
 		add(display);
 		
-		addMouseListeners();
+		getMouseListeners();
 		
 		AudioClip cFour = MediaTools.loadAudioClip("Marimba.yarn.ff.C4.stereo.aif");
 		cFour.play();
