@@ -23,7 +23,8 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 			// add distance between black keys for generalized form
 			xBlackKey += i * getWidth() / NUM_WHITE;
 			GRect blackKey = new GRect(xBlackKey, 0, widthKey, getHeight() / 2);
-			
+			blackKey.setFilled(true);
+			blackKey.setColor(Color.BLACK);
 			add(blackKey);
 		}
 		
