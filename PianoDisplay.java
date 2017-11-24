@@ -13,6 +13,11 @@ public class PianoDisplay extends GCanvas implements ComponentListener {
 	}
 	
 	public void update() {
+		removeAll();
+		for (int i = 0; i < 2; i++) {
+			
+		}
+		
 		/*draw display with lines, GRect for black keys*/
 	}
 	
