@@ -37,7 +37,17 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 	}
 	
 	private void setUpSecondBlackSet() {
-		
+		for (int i = 0; i < 3; i++) {
+			double xBlackKey = getWidth() / 2 - getWidth() / (3 * NUM_WHITE);
+			
+		}
+	}
+	
+	private void createKeys(double xBlackKey, double widthKey) {
+		GRect blackKey = new GRect(xBlackKey, 0, widthKey, getHeight() / 2);
+		blackKey.setFilled(true);
+		blackKey.setColor(Color.BLACK);
+		add(blackKey);
 	}
 
 	/* Implementation of the ComponentListener interface */
