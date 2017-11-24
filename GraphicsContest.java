@@ -7,7 +7,6 @@ import acm.program.*;
 import acm.util.*;
 import acm.graphics.*;
 import java.applet.*;
-import java.awt.*;
 import java.awt.event.*;
 
 public class GraphicsContest extends GraphicsProgram implements ComponentListener, PianoConstants {
