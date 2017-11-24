@@ -28,10 +28,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		record = new JButton("Record");
 		add(record, NORTH);
 		
-		add (new JLabel("Play Speed"), NORTH);
-		playSpeed = new JTextField(20);
-		playSpeed.setActionCommand("Play");
-		add(playSpeed, NORTH);
+		initPlaySpeedButtons();
 		
 		play = new JButton("Play");
 		add(play, NORTH);
