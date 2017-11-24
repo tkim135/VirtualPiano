@@ -55,8 +55,6 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		setUpFirstBlackSet(distBtwn, widthKey);
 		setUpSecondBlackSet(distBtwn, widthKey);
 		drawWhiteKeyLines();
-
-		/*draw display with lines, GRect for black keys*/
 	}
 
 	private void setUpFirstBlackSet(double distBtwn, double widthKey) {
