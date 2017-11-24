@@ -16,7 +16,7 @@ public class PianoDisplay extends GCanvas implements ComponentListener, PianoCon
 		removeAll();
 		// set up the black keys between C and D and between D and E
 		for (int i = 0; i < 2; i++) {
-			double xBlackKey = 2 * getWidth() /
+			double xBlackKey = 2 * getWidth() / (3 * NUM_WHITE);
 		}
 		
 		/*draw display with lines, GRect for black keys*/
