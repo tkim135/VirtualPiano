@@ -30,6 +30,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		
 		add (new JLabel("Play Speed"));
 		playSpeed = new JTextField(20);
+		playSpeed.setActionCommand("Play");
 		
 		play = new JButton("Play");
 		add(play, NORTH);
