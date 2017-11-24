@@ -28,7 +28,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		record = new JButton("Record");
 		add(record, NORTH);
 		
-		play = new JButton("Play");
+		JButton play = new JButton("Play");
 		add(play, NORTH);
 		
 		addActionListeners();
