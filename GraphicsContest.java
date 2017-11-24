@@ -36,7 +36,9 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	public void actionPerformed(ActionEvent e) {
-		recording = !recording;
+		if (e.getSource() == record) {
+			recording = !recording;
+		}
 	}
 	
 	private void createBottomHalfSounds(double x, double y) {
