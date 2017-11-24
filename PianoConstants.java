@@ -12,4 +12,7 @@ public interface PianoConstants {
 	
 	/** Width ratio between white and black keys */
 	public static final double WB_RATIO = 1.5;
+	
+	/** Represents spot of first line going from 0 to getHeight() */
+	public static final double FIRST_FULL = 3;
 }
