@@ -22,7 +22,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		
 		addMouseListeners();
 		
-		
+		addActionListeners();
 	}
 	
 	public void mouseClicked(MouseEvent e) {
