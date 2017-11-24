@@ -35,7 +35,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		createBottomHalfSounds(e.getX(), e.getY());
 		createTopHalfSounds(e.getX(), e.getY());
 		if (recording) {
-			noteList.add(new GPoint(e.getX()), e.getY());
+			noteList.add(new GPoint(e.getX(), e.getY()));
 		}
 	}
 	
