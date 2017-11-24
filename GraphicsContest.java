@@ -28,6 +28,9 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		record = new JButton("Record");
 		add(record, NORTH);
 		
+		add (new JLabel("Play Speed"));
+		playSpeed = new JTextField(20);
+		
 		play = new JButton("Play");
 		add(play, NORTH);
 		
@@ -163,6 +166,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	private JButton record;
 	private JButton play;
 	private JButton clear;
+	private JTextField playSpeed;
 	private boolean recording;
 	private ArrayList<GPoint> noteList = new ArrayList<GPoint>();
 	
