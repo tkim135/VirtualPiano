@@ -9,7 +9,7 @@ import acm.graphics.*;
 import java.applet.*;
 import java.awt.event.*;
 
-public class GraphicsContest extends GraphicsProgram implements PianoConstants {
+public class GraphicsContest extends Program implements PianoConstants {
 
 	public void init() {
 		display = new PianoDisplay();
