@@ -5,7 +5,7 @@
 
 import acm.program.*;
 import acm.util.*;
-//import acm.graphics.*;
+import acm.graphics.*;
 import java.applet.*;
 import java.awt.event.*;
 
@@ -22,7 +22,9 @@ public class GraphicsContest extends Program implements PianoConstants {
 	}
 	
 	public void mouseClicked(MouseEvent e) {
-		
+		if (getElementAt(e.getX(), e.getY())) {
+			
+		}
 	}
 	
 	/* add record feature, keyboard changes color, gliss? (connect button to key 
