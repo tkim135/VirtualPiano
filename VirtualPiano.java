@@ -183,7 +183,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		}
 	}
 
-	/* */
+	/* Method: setUpSecondBlackSet(double distBtwn, double widthKey) */
 	private void setUpSecondBlackSet(double distBtwn, double widthKey) {
 		for (int i = 0; i < 3; i++) {
 			double xBlackKey = getWidth() / 2 - getWidth() / (2 * WB_RATIO * NUM_WHITE) + i * distBtwn;
