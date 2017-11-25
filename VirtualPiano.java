@@ -184,6 +184,8 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: setUpSecondBlackSet(double distBtwn, double widthKey) */
+	/** Sets up the black keys between F (the fourth white key) and B (the seventh 
+	 * white key). */
 	private void setUpSecondBlackSet(double distBtwn, double widthKey) {
 		for (int i = 0; i < 3; i++) {
 			double xBlackKey = getWidth() / 2 - getWidth() / (2 * WB_RATIO * NUM_WHITE) + i * distBtwn;
