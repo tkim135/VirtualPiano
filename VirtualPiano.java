@@ -163,6 +163,10 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		}
 	}
 
+	private void createCircle() {
+		
+	}
+	
 	/* Method: update() */
 	/** Updates canvas (the keyboard) based on the resizing of the window. */
 	public void update() {
