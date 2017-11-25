@@ -53,7 +53,6 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		if (recording) {
 			noteList.add(new GPoint(e.getX(), e.getY()));
 		}
-		createCircle(e.getX(), e.getY());
 	}
 
 	/* Method: initPlaySpeedButtons() */
