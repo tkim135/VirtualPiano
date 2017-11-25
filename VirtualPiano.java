@@ -161,7 +161,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		}
 	}
 
-	/* */
+	/* Method: update() */
 	public void update() {
 		removeAll();
 		double distBtwn = getWidth() / NUM_WHITE;
