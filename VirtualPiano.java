@@ -77,7 +77,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 			// recording boolean behaves like a switch when button is pressed
 			recording = !recording;
 		} else if (e.getSource() == play) {
-			// sets recording
+			// sets recording mode off when play is pressed
 			recording = false;
 			for (int i = 0; i < noteList.size(); i++) {
 				createBottomHalfSounds(noteList.get(i).getX(), noteList.get(i).getY());
@@ -85,6 +85,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 				playAccordingToSpeed();
 			}
 		} else if (e.getSource() == clear) {
+			// sets recording mode off when play is pressed
 			recording = false;
 			noteList.clear();
 		}
