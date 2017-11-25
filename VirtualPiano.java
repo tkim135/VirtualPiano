@@ -21,7 +21,7 @@ import javax.swing.*;
 public class VirtualPiano extends GraphicsProgram implements ComponentListener, PianoConstants {
 
 	/* Method: init() */
-	/** Sets up the graphics of the program. */
+	/** Sets up the program's interactors. */
 	public void init() {
 		addComponentListener(this);
 		
