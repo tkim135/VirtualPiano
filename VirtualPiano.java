@@ -142,7 +142,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: generalTopSounds(double x, double y, double xLeftNum, double xRightNum, String filename) */
-	/** */
+	/**  */
 	private void generalTopSounds(double x, double y, double xLeftNum, double xRightNum, String filename) {
 		if (x > xLeftNum * getWidth() / (3 * NUM_WHITE) && x < xRightNum * getWidth() / (3 * NUM_WHITE) && y > 0 && y < getHeight() / 2) {
 			playNote(filename);
