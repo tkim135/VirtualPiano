@@ -17,9 +17,6 @@ import javax.swing.*;
 public class VirtualPiano extends GraphicsProgram implements ComponentListener, PianoConstants {
 
 	public void init() {
-		/*display = new PianoDisplay();
-		add(display);*/
-		
 		addComponentListener(this);
 		
 		addMouseListeners();
@@ -183,8 +180,6 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	
 	/* add record feature (slow, fast), keyboard changes color, gliss? (connect button to key 
 	 * with line, and go from there), samples, auto-playing code */
-
-	//private PianoDisplay display;
 	
 	private JButton record;
 	private JButton play;
