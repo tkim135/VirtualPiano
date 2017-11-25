@@ -194,7 +194,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: createKeys(double xBlackKey, double widthKey) */
-	/** */
+	/** Creates the actual GRect for a black key given the x-location  */
 	private void createKeys(double xBlackKey, double widthKey) {
 		GRect blackKey = new GRect(xBlackKey, 0, widthKey, getHeight() / 2);
 		blackKey.setFilled(true);
