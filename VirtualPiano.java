@@ -150,7 +150,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: playAccordingToSpeed() */
-	/** A recording is played depending on what speed is selected. */
+	/** A recording is played to the speed that has been selected. */
 	private void playAccordingToSpeed() {
 		if (slowRB.isSelected()) {
 			pause(SLOW_DELAY);
