@@ -100,6 +100,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		for (int i = 5; i < NUM_WHITE - 1; i++) {
 			generalBottomSounds(x, y, i, "Marimba.yarn.ff." + (char)('A' + i - 5) + "4.stereo.aif");
 		}
+		// rightmost key
 		generalBottomSounds(x, y, NUM_WHITE - 1, "Marimba.yarn.ff.C5.stereo.aif");
 	}
 
