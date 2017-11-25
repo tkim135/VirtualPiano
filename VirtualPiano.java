@@ -184,9 +184,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	public void componentResized(ComponentEvent e) { update(); }
 	public void componentShown(ComponentEvent e) { }
 	
-	/* add record feature (slow, fast), keyboard changes color, gliss? (connect button to key 
-	 * with line, and go from there), samples, auto-playing code */
-	
+	/** Private instance variables */
 	private JButton record;
 	private JButton play;
 	private JButton clear;
