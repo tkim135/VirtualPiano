@@ -119,7 +119,13 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	}
 	
 	private void playAccordingToSpeed() {
-		
+		if (slowRB.isSelected()) {
+			pause(SLOW_DELAY);
+		} else if (medRB.isSelected()) {
+			pause(MED_DELAY);
+		} else if (fastRB.isSelected()) {
+			pause(FAST_DELAY);
+		}
 	}
 	
 	public void update() {
