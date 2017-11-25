@@ -1,6 +1,6 @@
 /*
  * File: VirtualPiano.java
- * --------------------------
+ * -----------------------
  * Credits to University of Iowa Electronic Music Studios for the instrument 
  * sound files.
  */
