@@ -118,6 +118,10 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		}
 	}
 	
+	private void playAccordingToSpeed() {
+		
+	}
+	
 	public void update() {
 		removeAll();
 		double distBtwn = getWidth() / NUM_WHITE;
