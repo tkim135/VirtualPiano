@@ -50,7 +50,9 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 	
 	public void initPlaySpeedButtons() {
 		ButtonGroup speedBG = new ButtonGroup();
-		
+		slowRB = new JRadioButton("Slow");
+		medRB = new JRadioButton("Medium");
+		fastRB = new JRadioButton("Fast");
 	}
 	
 	public void actionPerformed(ActionEvent e) {
