@@ -55,7 +55,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: initPlaySpeedButtons() */
-	/**  */
+	/** Sets up  */
 	public void initPlaySpeedButtons() {
 		ButtonGroup speedBG = new ButtonGroup();
 		slowRB = new JRadioButton("Slow");
