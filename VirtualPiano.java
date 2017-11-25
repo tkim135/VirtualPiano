@@ -71,7 +71,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: actionPerformed(ActionEvent e) */
-	/**  */
+	/** Specifies what happens when any of the buttons are pressed. */
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == record) {
 			// recording boolean behaves like a switch when button is pressed
