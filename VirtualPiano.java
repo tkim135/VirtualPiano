@@ -203,6 +203,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: drawWhiteKeyLines() */
+	/** */
 	private void drawWhiteKeyLines() {
 		for (int i = 1; i <= NUM_WHITE - 1; i++) {
 			double xLine = i * getWidth() / NUM_WHITE;
