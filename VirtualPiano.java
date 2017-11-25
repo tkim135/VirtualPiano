@@ -186,7 +186,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	public void componentResized(ComponentEvent e) { update(); }
 	public void componentShown(ComponentEvent e) { }
 
-	/** Private instance variables */
+	/* Private instance variables */
 	private JButton record;
 	private JButton play;
 	private JButton clear;
