@@ -1,7 +1,8 @@
 /*
  * File: PianoConstants.java
  * -------------------------
- * 
+ * This file declares constants that other files in the VirtualPiano application 
+ * can use. 
  */
 
 public interface PianoConstants {
