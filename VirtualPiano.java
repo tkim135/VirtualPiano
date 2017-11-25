@@ -167,13 +167,13 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	/** When user clicks the keyboard at a specific point, a red circle shows 
 	 * up for a brief second at that point. */
 	private void createCircle(double x, double y) {
-		double r = getWidth() / (6 * NUM_WHITE);
+		/*double r = getWidth() / (6 * NUM_WHITE);
 		GOval circle = new GOval(x - r, y - r, 2 * r, 2 * r);
 		circle.setFilled(true);
 		circle.setColor(Color.RED);
 		add(circle);
 		pause(200);
-		remove(circle);
+		remove(circle);*/
 	}
 	
 	/* Method: update() */
