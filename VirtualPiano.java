@@ -115,7 +115,8 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		}
 	}
 	
-	/* */
+	/* Method: playNote(String filename) */
+	/** */
 	private void playNote(String filename) {
 		AudioClip note = MediaTools.loadAudioClip(filename);
 		note.play();
