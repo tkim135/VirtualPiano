@@ -69,7 +69,7 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 			for (int i = 0; i < noteList.size(); i++) {
 				createBottomHalfSounds(noteList.get(i).getX(), noteList.get(i).getY());
 				createTopHalfSounds(noteList.get(i).getX(), noteList.get(i).getY());
-				pause(1000);
+				playAccordingToSpeed();
 			}
 		} else if (e.getSource() == clear) {
 			recording = false;
