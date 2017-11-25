@@ -42,6 +42,8 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		addActionListeners();
 	}
 
+	/* Method: mouseClicked(MouseEvent e) */
+	/**  */
 	public void mouseClicked(MouseEvent e) {
 		createBottomHalfSounds(e.getX(), e.getY());
 		createTopHalfSounds(e.getX(), e.getY());
