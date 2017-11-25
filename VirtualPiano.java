@@ -162,7 +162,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: update() */
-	/**  */
+	/** Updates canvas based on the resizing of the window. */
 	public void update() {
 		removeAll();
 		double distBtwn = getWidth() / NUM_WHITE;
