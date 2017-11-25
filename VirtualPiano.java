@@ -165,7 +165,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 
 	private void createCircle(double x, double y) {
 		double r = getWidth() / (6 * NUM_WHITE);
-		GOval circle = new GOval();
+		GOval circle = new GOval(x - r, y - r, 2 * r, 2 * r);
 	}
 	
 	/* Method: update() */
