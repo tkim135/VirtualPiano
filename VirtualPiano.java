@@ -92,6 +92,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: createBottomHalfSounds(double x, double y) */
+	/**  */
 	private void createBottomHalfSounds(double x, double y) {
 		// iterates for first five white keys from the left
 		for (int i = 0; i < 5; i++) {
