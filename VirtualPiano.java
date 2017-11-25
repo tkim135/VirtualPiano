@@ -172,6 +172,8 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		circle.setFilled(true);
 		circle.setColor(Color.RED);
 		add(circle);
+		pause(200);
+		remove(circle);
 	}
 	
 	/* Method: update() */
