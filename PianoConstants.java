@@ -24,4 +24,5 @@ public interface PianoConstants {
 	
 	/** Fast play speed delay */
 	public static final int FAST_DELAY = 250;
+	
 }
