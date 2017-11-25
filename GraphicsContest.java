@@ -53,6 +53,13 @@ public class GraphicsContest extends GraphicsProgram implements ComponentListene
 		slowRB = new JRadioButton("Slow");
 		medRB = new JRadioButton("Medium");
 		fastRB = new JRadioButton("Fast");
+		speedBG.add(slowRB);
+		speedBG.add(medRB);
+		speedBG.add(fastRB);
+		medRB.setSelected(true);
+		add(slowRB, NORTH);
+		add(medRB, NORTH);
+		add(fastRB, NORTH);
 	}
 	
 	public void actionPerformed(ActionEvent e) {
