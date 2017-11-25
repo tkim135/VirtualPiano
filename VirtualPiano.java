@@ -108,7 +108,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: generalBottomSounds(double x, double y, double xNum, String filename) */
-	/**  */
+	/** General form for checking notes in the bottom half. */
 	private void generalBottomSounds(double x, double y, double xNum, String filename) {
 		if (x > xNum * getWidth() / NUM_WHITE && x < (xNum + 1) * getWidth() / NUM_WHITE && y > getHeight() / 2 && y < getHeight()) {
 			AudioClip note = MediaTools.loadAudioClip(filename);
