@@ -1,3 +1,7 @@
+/*
+ * File: PianoConstants.java
+ * -------------------------
+ */
 
 public interface PianoConstants {
 	
