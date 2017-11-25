@@ -15,4 +15,13 @@ public interface PianoConstants {
 	
 	/** Represents spot number of first line going from 0 to getHeight() */
 	public static final int FIRST_FULL = 3;
+	
+	/** Slow play speed delay */
+	public static final int SLOW_DELAY = 1000;
+	
+	/** Medium play speed delay */
+	public static final int MED_DELAY = 500;
+	
+	/** Fast play speed delay */
+	public static final int FAST_DELAY = 250;
 }
