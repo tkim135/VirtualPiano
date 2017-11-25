@@ -70,6 +70,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		add(fastRB, NORTH);
 	}
 
+	/* */
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == record) {
 			recording = !recording;
