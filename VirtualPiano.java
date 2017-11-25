@@ -24,24 +24,24 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	/** Sets up the program's interactors. */
 	public void init() {
 		addComponentListener(this);
-		
+
 		addMouseListeners();
-		
+
 		recording = false;
 		record = new JButton("Record");
 		add(record, NORTH);
-		
+
 		initPlaySpeedButtons();
-		
+
 		play = new JButton("Play");
 		add(play, NORTH);
-		
+
 		clear = new JButton("Clear Memory");
 		add(clear, NORTH);
-		
+
 		addActionListeners();
 	}
-	
+
 	public void mouseClicked(MouseEvent e) {
 		createBottomHalfSounds(e.getX(), e.getY());
 		createTopHalfSounds(e.getX(), e.getY());
@@ -49,7 +49,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 			noteList.add(new GPoint(e.getX(), e.getY()));
 		}
 	}
-	
+
 	public void initPlaySpeedButtons() {
 		ButtonGroup speedBG = new ButtonGroup();
 		slowRB = new JRadioButton("Slow");
@@ -63,7 +63,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		add(medRB, NORTH);
 		add(fastRB, NORTH);
 	}
-	
+
 	public void actionPerformed(ActionEvent e) {
 		if (e.getSource() == record) {
 			recording = !recording;
@@ -79,7 +79,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 			noteList.clear();
 		}
 	}
-	
+
 	private void createBottomHalfSounds(double x, double y) {
 		// iterates for first five white keys from the left
 		for (int i = 0; i < 5; i++) {
@@ -90,14 +90,14 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		}
 		generalBottomSounds(x, y, NUM_WHITE - 1, "Marimba.yarn.ff.C5.stereo.aif");
 	}
-	
+
 	private void generalBottomSounds(double x, double y, double xNum, String filename) {
 		if (x > xNum * getWidth() / NUM_WHITE && x < (xNum + 1) * getWidth() / NUM_WHITE && y > getHeight() / 2 && y < getHeight()) {
 			AudioClip note = MediaTools.loadAudioClip(filename);
 			note.play();
 		}
 	}
-	
+
 	private void createTopHalfSounds(double x, double y) {
 		generalTopSounds(x, y, 0, 2, "Marimba.yarn.ff.C4.stereo.aif");
 		generalTopSounds(x, y, 2, 4, "Marimba.yarn.ff.Db4.stereo.aif");
@@ -113,14 +113,14 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		generalTopSounds(x, y, 19, 21, "Marimba.yarn.ff.B4.stereo.aif");
 		generalTopSounds(x, y, 21, 24, "Marimba.yarn.ff.C5.stereo.aif");
 	}
-	
+
 	private void generalTopSounds(double x, double y, double xLeftNum, double xRightNum, String filename) {
 		if (x > xLeftNum * getWidth() / (3 * NUM_WHITE) && x < xRightNum * getWidth() / (3 * NUM_WHITE) && y > 0 && y < getHeight() / 2) {
 			AudioClip note = MediaTools.loadAudioClip(filename);
 			note.play();
 		}
 	}
-	
+
 	private void playAccordingToSpeed() {
 		if (slowRB.isSelected()) {
 			pause(SLOW_DELAY);
@@ -130,7 +130,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 			pause(FAST_DELAY);
 		}
 	}
-	
+
 	public void update() {
 		removeAll();
 		double distBtwn = getWidth() / NUM_WHITE;
@@ -148,21 +148,21 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 			createKeys(xBlackKey, widthKey);
 		}
 	}
-	
+
 	private void setUpSecondBlackSet(double distBtwn, double widthKey) {
 		for (int i = 0; i < 3; i++) {
 			double xBlackKey = getWidth() / 2 - getWidth() / (2 * WB_RATIO * NUM_WHITE) + i * distBtwn;
 			createKeys(xBlackKey, widthKey);
 		}
 	}
-	
+
 	private void createKeys(double xBlackKey, double widthKey) {
 		GRect blackKey = new GRect(xBlackKey, 0, widthKey, getHeight() / 2);
 		blackKey.setFilled(true);
 		blackKey.setColor(Color.BLACK);
 		add(blackKey);
 	}
-	
+
 	private void drawWhiteKeyLines() {
 		for (int i = 1; i <= NUM_WHITE - 1; i++) {
 			double xLine = i * getWidth() / NUM_WHITE;
@@ -183,7 +183,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	public void componentMoved(ComponentEvent e) { }
 	public void componentResized(ComponentEvent e) { update(); }
 	public void componentShown(ComponentEvent e) { }
-	
+
 	/** Private instance variables */
 	private JButton record;
 	private JButton play;
@@ -194,5 +194,5 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	private JRadioButton fastRB;
 	private boolean recording;
 	private ArrayList<GPoint> noteList = new ArrayList<GPoint>();
-	
+
 }
