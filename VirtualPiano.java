@@ -122,8 +122,8 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 		note.play();
 	}
 
-	
-	
+	/* */
+	/** */
 	private void createTopHalfSounds(double x, double y) {
 		generalTopSounds(x, y, 0, 2, "Marimba.yarn.ff.C4.stereo.aif");
 		generalTopSounds(x, y, 2, 4, "Marimba.yarn.ff.Db4.stereo.aif");
