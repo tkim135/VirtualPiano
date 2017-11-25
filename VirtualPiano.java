@@ -1,5 +1,5 @@
 /*
- * File: GraphicsContest.java
+ * File: VirtualPiano.java
  * --------------------------
  * Credits to University of Iowa Electronic Music Studios for the instrument 
  * sound files.
@@ -14,7 +14,7 @@ import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
 
-public class GraphicsContest extends GraphicsProgram implements ComponentListener, PianoConstants {
+public class VirtualPiano extends GraphicsProgram implements ComponentListener, PianoConstants {
 
 	public void init() {
 		/*display = new PianoDisplay();
