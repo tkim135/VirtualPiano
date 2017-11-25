@@ -92,7 +92,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	}
 
 	/* Method: createBottomHalfSounds(double x, double y) */
-	/** When user clicks mouse in bottom half of the keyboard, differentiates what 
+	/** When user clicks mouse in bottom half of the window, differentiates what 
 	 * note is played. */
 	private void createBottomHalfSounds(double x, double y) {
 		// iterates for first five white keys from the left
