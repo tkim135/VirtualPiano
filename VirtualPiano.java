@@ -1,8 +1,11 @@
 /*
  * File: VirtualPiano.java
  * -----------------------
- * Credits to University of Iowa Electronic Music Studios for the instrument 
- * sound files.
+ * Main file for a virtual piano keyboard application. Functions include resizing 
+ * of window whenever prompted by the user, playing individual notes, recording a 
+ * melody, playing the recorded melody, manipulating the playing speed of the 
+ * melody, and clearing the memory for the previous recording. Credits to the 
+ * University of Iowa Electronic Music Studios for the instrument sound files.
  */
 
 import acm.program.*;
