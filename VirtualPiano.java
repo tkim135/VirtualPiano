@@ -176,7 +176,6 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	/** Sets up the black keys between C (the first white key) and E (the third 
 	 * white key). */
 	private void setUpFirstBlackSet(double distBtwn, double widthKey) {
-		// set up the black keys between C and D and between D and E
 		for (int i = 0; i < 2; i++) {
 			// location of first black key happens to equal widthKey
 			double xBlackKey = widthKey + i * distBtwn;
