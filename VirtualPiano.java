@@ -45,8 +45,7 @@ public class VirtualPiano extends GraphicsProgram implements ComponentListener, 
 	/* Method: mouseClicked(MouseEvent e) */
 	/** Specifies what happens when mouse is clicked, depending on whether the 
 	 * mouse is clicked on the bottom half or top half of the graphics window 
-	 * (the keyboard) and whether the "Record" button is clicked. Also creates 
-	 * red circle around the clicked region. */
+	 * (the keyboard) and whether the "Record" button is clicked. */
 	public void mouseClicked(MouseEvent e) {
 		createBottomHalfSounds(e.getX(), e.getY());
 		createTopHalfSounds(e.getX(), e.getY());
